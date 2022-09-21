@@ -1,0 +1,36 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+} 
+body {
+	margin-top: 30px;
+}
+.gitpractice {
+	    width: 50%;
+		background-color: black;
+		 padding: 20px;
+		 height: inherit;
+		 margin: auto;
+}
+.gitpractice h1{
+	color: red;
+	padding: 10px;
+	font-size: 19px;
+}
+.gitpractice p{
+	color: white;
+}
+@media screen and (max-width: 600px){
+	.gitpractice h1{
+	font-size: 15px;
+	text-align: center;
+}
+.gitpractice p{
+	font-size: 12px;
+	padding: 20px;
+	font-family: sans-serif;
+}
+
+}
+
